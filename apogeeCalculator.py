@@ -1,7 +1,4 @@
-Python 3.9.5 (v3.9.5:0a7dcbdb13, May  3 2021, 13:17:02) 
-[Clang 6.0 (clang-600.0.57)] on darwin
-Type "help", "copyright", "credits" or "license()" for more information.
->>> g = 9.81
+g = 9.81
 speed = 0
 alt = 0
 apogee = 0
@@ -28,8 +25,3 @@ print("The apogee is ", str(round(alt + apogee)), "m,"," achieved in the ", str(
       "th second. (", str(round((k*0.005 + time)/60)), "th minute.)")
 print("The thrust apogee is ", str(round(alt)), "m")
 print("\nDrag neglected.")
-
-
-
-SyntaxError: multiple statements found while compiling a single statement
->>> 
